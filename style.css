@@ -26,8 +26,9 @@ h1{
     border: 1px solid gold;
     border-radius: 20px;  
 }
-.button:hover{
+.button:hover, .option:hover{
     cursor: pointer;
+    border: gold;
 }
 a{
     text-decoration: none;
