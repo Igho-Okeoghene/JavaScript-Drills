@@ -23,26 +23,20 @@ next.addEventListener('click', () => {
 
 let questionPool = [
     {
-        question: "How many tongues are on the foot of a man?",
+        question: "In JavaScript, which of the following keywords cannot be overwritten?",
         answers: [
-            { text: '4', correct: true },
-            { text: '22', correct: false }
+            { text: 'let', correct: false },
+            { text: 'const', correct: true },
+            { text: 'var', correct: false }
           ] 
         },
     {
-    question: "How many fingers are on the foot of a man?",
+    question: "A string can be surrounded by single or double quotes in JavaScript",
     answers: [
-        { text: '16', correct: true },
-        { text: '30', correct: false }
+        { text: 'True', correct: true },
+        { text: 'False', correct: false }
       ] 
-    },
-    {
-        question: "How many toes are on the foot of a man?",
-        answers: [
-            { text: '9', correct: false },
-            { text: '90', correct: true }
-          ] 
-        },
+    }
 ];
 
 const POINTS = 1;
@@ -95,7 +89,7 @@ function selectAnswer(e) {
    
     if (correct) {
       element.classList.add('correct')
-    increaseScore()
+   
     }else {
       element.classList.add('wrong')
     }
@@ -105,10 +99,3 @@ function selectAnswer(e) {
     }, 2000);
     
 };
-
-
-
-
-
-  
- 
