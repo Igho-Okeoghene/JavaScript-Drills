@@ -16,8 +16,37 @@ h1{
     font-size: 2.5rem;
     padding-top: 6rem
 }
+h2{
+    text-align: left;
+    padding-left: 3px;
+    font-size: 2rem;
+}
+.timer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+}
+.timer .timer_sec{
+    background-color: gold;
+    color: #333;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+.total_que span{
+    display: flex;
+}
+
+.total_que span p{
+    font-weight: 500;
+    padding: 0 6px;
+}
+
+.total_que span p:first-child{
+    padding-left: 3px;
+}
 .quote{
-    padding: 4rem 1rem;
+    padding: 3rem 1rem;
 }
 .button{
     background-color: gold;
@@ -30,6 +59,9 @@ h1{
     cursor: pointer;
     border: gold;
 }
+#start{
+    margin-bottom: 2rem;
+}
 a{
     text-decoration: none;
     color: #333;
@@ -37,14 +69,14 @@ a{
 }
 footer{
     position: absolute;
-    bottom: 50px;
+    bottom: 0px;
     text-align: center;
     padding: 0 4.1rem;
 }
 .header{
     display: flex;
     justify-content: space-between;
-    padding: 3rem 2rem;
+    padding: 2rem;
 }
 #question{
     background-color: gold;
@@ -54,14 +86,14 @@ footer{
     margin-bottom: 2rem;
 }
 .option{
-    border: 8px solid #333;  
+    border: 8px solid #333;
     background-color: gold;
     color: #333;
     text-align: center;
     padding: 1rem 2rem;
-    margin: 0 2rem;
+    margin: 0 1.5rem;
     font-weight: 600;
-    width: 80%;
+    width: 70%;
 }
 #next{
     margin-top: 2rem;
@@ -74,4 +106,57 @@ footer{
 .wrong{
     background-color: darkred;
     color: white;
+}
+.option_list .option.disabled{
+    pointer-events: none;
+}
+.hideDisplay{
+    display: none;
+}
+.showDisplay{
+    display: block;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    color: gold;
+}
+.complete_text{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.score_text{
+    margin-bottom: 2rem;
+}
+.score_text span{
+    display: flex;
+    justify-content: center;
+}
+.score_text span p{
+    padding: 0 5px;
+}
+@media screen and (min-width: 768px) {
+    body{
+        background-color: gold;
+    }
+.container{
+    width: 450px;
+    margin: 0 auto;
+}
+.option{
+    margin: 0 35px;
+}
+footer{
+    padding: 0 91px;
+}
+.button:hover{
+    border: 2px solid gold;
+}
+}
+@media screen and (min-width: 1024px) {
+body{
+    margin: 5rem 0;
+}
+.container{
+    height: 90vh;
+}
 }

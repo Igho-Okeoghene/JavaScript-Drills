@@ -12,28 +12,47 @@
         <div class="header">
             <div class="drill-name">
                 <h2>JS Drills</h2>
-                <i></i>
+                <div class="total_que">
+                    <!-- Here I've inserted Question Count Number from JavaScript -->
+                </div>
             </div>
-            <!-- <div class="score">
-                <h2>Score
-                <span id="score">0</span>
-                / 10
-                </h2>
-            </div> -->
+            <div class="timer">
+                <div class="timer_sec">15</div>
+            </div>
         </div>
-        <div class="multi-choice">
-        <p id="question"></p>
-        <div id="answer-buttons">
-        <!--<button class="option">Option 1</button>
-        <button class="option">True</button>
-        <button class="option">False</button>-->
-        </div>
-        </div>
+        <section>
+            
+            <div class="que_text" id="question">
+                <!-- Here I've inserted question from JavaScript -->
+            </div>
+            <div class="option_list" id="answer-buttons">
+                <!-- Here I've inserted options from JavaScript -->
+            </div>
+        </section>
+   
         <button class="button" id="next">NEXT QUESTION</button>
         <footer>
             <p class="footer">Built with Js | Okeoghene Eunice Igho</p>
         </footer>
     </div>
+    
+    <div class="result hideDisplay">
+        <h1>JavaScript Drills</h1>
+        <p class="quote">
+            "Practice means to perform, over and over again in the face of all obstacles, some act of vision, of faith, of desire. Practice is a means of inviting the perfection desired." <br>– Martha Graham
+        </p>
+        <div class="complete_text">Awesome Attempt!</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
+        </div>
+        <button id="start" class="button">
+            <a href="./game.html">
+            PLAY AGAIN
+            </a>
+        </button>
+    </div>
+    
     <script src="index.js"></script>
+    <script src="./questions.js"></script>
 </body>
 </html>
