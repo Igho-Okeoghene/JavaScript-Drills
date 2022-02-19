@@ -7,6 +7,7 @@ const countTag = document.querySelector(".total_que");
 const header = document.querySelector(".header");
 const section = document.querySelector("section");
 const resultContainer = document.querySelector(".result");
+const container = document.querySelector(".container");
 
 function startGame(){
   showQuetions(0); //calling showQestions function
@@ -90,9 +91,7 @@ function optionSelected(answer){
 
 
 function showResult(){
-  header.classList.add("hideDisplay"); //hide header
-  section.classList.add("hideDisplay");// hide question and option
-  next.classList.add("hideDisplay");// hide question and option
+  container.classList.add("hideDisplay"); //hide header
  resultContainer.classList.remove("hideDisplay"); 
  resultContainer.classList.add("showDisplay"); // show result container
   const scoreText = document.querySelector(".score_text");
@@ -123,8 +122,7 @@ function startTimer(time){
       }
       if(time < 0){ //if timer is less than 0
           clearInterval(counter); //clear counter
-          timeText.textContent = "Time Off"; //change the time text to time off
-          const allOptions = option_list.children.length; //getting all option items
+           const allOptions = option_list.children.length; //getting all option items
           let correcAns = questions[que_count].answer; //getting correct answer from array
           for(i=0; i < allOptions; i++){
               if(option_list.children[i].textContent == correcAns){ //if there is an option which is matched to an array answer
