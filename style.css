@@ -81,7 +81,7 @@ footer {
   padding-top: 1rem;
 }
 #question {
-  background-color: gold;
+  background-color: #eebb11;
   color: #333;
   padding: 1rem 2rem;
   font-weight: 600;
@@ -140,7 +140,7 @@ footer {
 }
 @media screen and (min-width: 768px) {
   body {
-    background-color: gold;
+    background-color: #eebb11;
   }
   .container,
   .box {
