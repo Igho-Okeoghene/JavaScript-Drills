@@ -7,7 +7,7 @@
 }
 .container {
   background-color: #333;
-  color: gold;
+  color: #eebb11;
   height: 100vh;
   text-align: center;
   position: relative;
@@ -28,7 +28,7 @@ h2 {
   font-weight: 700;
 }
 .timer .timer_sec {
-  background-color: gold;
+  background-color: #eebb11;
   color: #333;
   padding: 10px;
   font-size: 1.5rem;
@@ -49,16 +49,16 @@ h2 {
   padding: 3rem 1rem;
 }
 .button {
-  background-color: gold;
+  background-color: #eebb11;
   color: #333;
   padding: 1rem;
-  border: 1px solid gold;
+  border: 1px solid #eebb11;
   border-radius: 20px;
 }
 .button:hover,
 .option:hover {
   cursor: pointer;
-  border: gold;
+  border: #eebb11;
 }
 #start {
   margin-bottom: 2rem;
@@ -89,7 +89,7 @@ footer {
 }
 .option {
   border: 8px solid #333;
-  background-color: gold;
+  background-color: #eebb11;
   color: #333;
   text-align: center;
   padding: 1rem 2rem;
@@ -118,7 +118,7 @@ footer {
 .showDisplay {
   display: block;
   text-align: center;
-  color: gold;
+  color: #eebb11;
 }
 .complete_text {
   font-size: 1.5rem;
@@ -154,7 +154,7 @@ footer {
     padding: 0 91px;
   }
   .button:hover {
-    border: 2px solid gold;
+    border: 2px solid #eebb11;
   }
 }
 @media screen and (min-width: 1024px) {
