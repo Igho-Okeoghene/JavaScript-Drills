@@ -161,7 +161,7 @@ let questions = [
           "Math.random()",
           "Math.Floor()",
           "Math.Int()",
-          "Math.decima()"
+          "Math.decimal()"
       ]
   }
   
