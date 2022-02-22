@@ -163,6 +163,17 @@ let questions = [
           "Math.Int()",
           "Math.decimal()"
       ]
+  },
+   {
+      numb: 16,
+      question:"var a; let b; const c; Which would throw an error in the console?",
+      answer: "const c",
+      options: [
+          "var a",
+          "let b",
+          "const c",
+          "none of the above"
+      ]
   }
   
 ]
