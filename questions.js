@@ -174,6 +174,15 @@ let questions = [
           "const c",
           "none of the above"
       ]
+  },
+   {
+      numb: 17,
+      question:"Array.push, Pop, and Splice create Impure Functions",
+      answer: "True",
+      options: [
+          "True",
+          "False"
+      ]
   }
   
 ]
