@@ -177,7 +177,7 @@ let questions = [
   },
    {
       numb: 17,
-      question:"Array.push, Pop, and Splice create Impure Functions",
+      question:"Array.push, Pop, and Splice mutates the Array being worked on. True or False",
       answer: "True",
       options: [
           "True",
