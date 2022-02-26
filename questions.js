@@ -177,11 +177,13 @@ let questions = [
   },
    {
       numb: 17,
-      question:"Array.push, Pop, and Splice mutates the Array being worked on. True or False",
+      question:"Array.push, Pop, and Splice mutates the Array being worked on.",
       answer: "True",
       options: [
           "True",
-          "False"
+          "False",
+          "Undefined",
+          "Cannot be verified"
       ]
   }
   
